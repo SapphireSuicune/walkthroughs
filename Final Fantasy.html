@@ -1,0 +1,320 @@
+<!doctype html><html><head> 
+  <title>Final Fantasy Walkthrough</title> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text"> 
+  <style>
+    
+* {
+  font-family: "Crimson Text";
+} 
+
+body {
+  margin: 0 0 0 0;
+  background-color: #eeeeee;
+}
+    
+button {
+  align-items: center;
+  display: inline-block;
+}
+
+h1, h2 {
+  font-family: "Alegreya";
+  text-align: center; 
+}
+
+.toc_list > li > ol > li > a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.toc_list > li > ol > li > a:hover {
+  transition: 0.25s;
+  color: #aaaaaa;
+}
+
+.toc_list > li > a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.toc_list > li > a:hover {
+  transition: 0.25s;
+  color: #aaaaaa;
+}
+
+#red{
+  color: red;
+}
+
+table,
+      th,
+      td {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      
+#toc_container {
+    background: #333333 none repeat scroll 0 0 !important;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+    color: white;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.toc_list {
+  display: flex;
+  flex-direction: row;
+}
+
+    </style> 
+ </head> 
+ <body> 
+  <div id="toc_container"> 
+   <p class="toc_title">Contents</p> 
+   <ol class="toc_list"> 
+    <li><a href="#Cornelia">Cornelia</a> 
+     <ol type="i"> 
+      <li><a href="#Cornelia-Town">The Town of Cornelia</a></li> 
+      <li><a href="#Garland">Garland (Boss)</a></li> 
+      <li><a href="#Matoyas-Cave">Matoya's Cave</a></li> 
+      <li><a href="#Heading-To-Pravoka">Heading To Pravoka</a></li> 
+      <li><a href="#Pravoka">Pravoka</a></li> 
+      <li><a href="#Pirates">Pirates (Boss)</a></li> 
+     </ol> </li> 
+    <li><a href="#Elfheim">Elfheim</a> 
+     <ol type="i"> 
+      <li><a href="#Elfheim-Town">The Town of Elfheim</a></li> 
+      <li><a href="#Time-To-Grind">Time to Grind</a></li> 
+      <li><a href="#Marsh-Cave">Marsh Cave</a></li> 
+      <li><a href="#Piscodemons">Piscodemons (Boss)</a></li> 
+      <li><a href="#Return-From-The-Marsh">Return From the Marsh</a></li> 
+      <li><a href="#Western-Keep">Western Keep</a></li> 
+      <li><a href="#Astos">Astos (Boss)</a></li> 
+      <li><a href="#The-Mystic-Key">The Mystic Key</a></li> 
+      <li><a href="#Mt-Duegar">Mt. Duegar</a></li> 
+     </ol> </li> 
+    <li><a href="#Earth">Earth</a> 
+     <ol type="i"> 
+      <li><a href="#Melmond">Melmond</a></li> 
+      <li><a href="#The-Cavern-Of-Earth">The Cavern of Earth</a></li> 
+      <li><a href="#Vampire">Vampire (Boss)</a></li> 
+      <li><a href="#The-Star-Ruby">The Star Ruby</a></li> 
+      <li><a href="#The-Cavern-Of-Earth-II">The Cavern of Earth II</a></li> 
+      <li><a href="#Lich">Lich (Boss)</a></li> 
+     </ol> </li> 
+    <li><a href="#Expeditions-Of-Grandeur">Expeditions</a> 
+     <ol type="i"> 
+      <li><a href="#The-Canoe">The Canoe</a></li> 
+      <li><a href="#Ice-Cavern">Ice Cavern</a></li> 
+      <li><a href="#Ryukahn-Desert">Ryukahn Desert</a></li> 
+      <li><a href="#The-Citadel-Of-Trials">The Citadel of Trials</a></li> 
+      <li><a href="#Cardia-Islands">Cardia Islands</a></li> 
+     </ol> </li>
+    <li><a href="#Fire">Fire</a> 
+     <ol type="i"> 
+      <li><a href="#Crescent-Lake">Crescent Lake</a></li> 
+      <li><a href="#Mt-Gulg">Mt. Gulg</a></li>
+      <li><a href="#Marilith">Marilith (Boss)</a></li>
+     </ol> </li>
+   <li><a href="#Water">Water</a> 
+     <ol type="i"> 
+      <li><a href="#The-Deserts-Secret">The Desert's Secret</a></li>
+      <li><a href="#Gaia">Gaia</a></li>
+      <li><a href="#Onrac">Onrac</a></li>
+      <li><a href="#The-Sunken-Shrine">The Sunken Shrine</a></li>
+      <li><a href="#Kraken">Kraken (Boss)</a></li>
+     </ol> </li>
+    <li><a href="#Wind">Wind</a> 
+     <ol type="i"> 
+      <li><a href="#Waterfall-Cave">Waterfall Cave</a></li>
+      <li><a href="#Lufenia">Lufenia</a></li>
+      <li><a href="#Mirage-Tower">Mirage Tower</a></li>
+      <li><a href="#The-Flying-Fortress">The Flying Fortress</a></li>
+      <li><a href="#Tiamat">Tiamat (Boss)</a></li>
+      <li><a href="#An-Elusive-Machine">An Elusive Machine</a></li>
+     </ol> </li>
+<li><a href="#Eternal-Chaos">Eternal Chaos</a> 
+     <ol type="i"> 
+      <li><a href="#The-Excalibur">The Excalibur</a></li>
+      <li><a href="#Chaos-Shrine">Chaos Shrine</a></li>
+       <li><a href="#Chaos">Chaos (Boss)</a></li>
+     </ol> </li>
+ <li><a href="#Earthgift-Shrine">Earthgift Shrine</a> 
+     <ol type="i"> 
+      <li><a href="#EGS-Floors">Floors</a></li>
+      <li><a href="#Echidna">Echidna (Boss)</a></li>
+       <li><a href="#Ahriman">Ahriman (Boss)</a></li>
+       <li><a href="#2-Headed-Dragon">2-Headed Dragon (Boss)</a></li>
+       <li><a href="#Cerberus">Cerberus (Boss)</a></li>
+     </ol> </li>
+  <li><a href="#Heckfire-Chasm">Heckfire Chasm</a> 
+     <ol type="i"> 
+      <li><a href="#HFC-Floors-1-5">Floors 1-5</a></li>
+      <li><a href="#Scarmiglione">Scarmiglione (Boss)</a></li>
+       <li><a href="#Cagnazzo">Cagnazzo (Boss)</a></li>
+      <li><a href="#HFC-Floors-6-10">Floors 6-10</a></li>
+        <li><a href="#Barbariccia">Barbariccia (Boss)</a></li>
+       <li><a href="#Rubicante">Rubicante (Boss)</a></li>
+     </ol> </li>
+   <li><a href="#Lifespring-Grotto">Lifespring Grotto</a> 
+     <ol type="i"> 
+      <li><a href="#LSG-Floors-1-5">Floors 1-5</a></li>
+      <li><a href="#Gilgamesh">Gilgamesh (Boss)</a></li>
+      <li><a href="#LSG-Floors-6-10">Floors 6-10</a></li>
+      <li><a href="#Atomos">Atomos (Boss)</a></li>
+      <li><a href="#LSG-Floors-11-15">Floors 11-15</a></li>
+      <li><a href="#LSG-Floors-16-20">Floors 16-20</a></li>
+       <li><a href="#Omega">Omega (Boss)</a></li>
+       <li><a href="#Shinryu">Shinryu (Boss)</a></li>
+     </ol> </li>
+   <li><a href="#Whisperwind-Cove">Whisperwind Cove</a> 
+     <ol type="i"> 
+      <li><a href="#WWC-Floors-1-5">Floors 1-5</a></li>
+      <li><a href="#WWC-Floors-6-10">Floors 6-10</a></li>
+      <li><a href="#Typhon">Typhon (Boss)</a></li>
+      <li><a href="#WWC-Floors-11-15">Floors 11-15</a></li>
+      <li><a href="#WWC-Floors-16-20">Floors 16-20</a></li>
+      <li><a href="#Orthros">Orthros (Boss)</a></li>
+      <li><a href="#WWC-Floors-21-25">Floors 21-25</a></li>
+      <li><a href="#WWC-Floors-26-30">Floors 26-30</a></li>
+      <li><a href="#Phantom-Train">Phantom Train (Boss)</a></li>
+      <li><a href="#WWC-Floors-31-35">Floors 31-35</a></li>
+      <li><a href="#WWC-Floors-36-40">Floors 36-40</a></li>
+       <li><a href="#Death-Gaze">Death Gaze (Boss)</a></li>
+     </ol> </li>
+   </ol> 
+  </div> 
+  <h1 id="Cornelia">Cornelia</h1> 
+  <p style="text-align: center">Cornelia, Chaos Shrine, and Pravoka</p> 
+  <h2 id="Cornelia-Town">The Town of Cornelia / Cornelia Castle</h2> 
+  <p>When you've just started your adventure and you are in the town of Cornelia, you will start with 500 gil. Buy Nunchaku for Monks, Rapiers for Warriors, Thieves and Red Mages, and a Hammer for White Mages. In the armor shop, buy Chain Mail for Warriors, and Leather Armor for Monks, Thieves, and Red Mages. There is no reason to buy Clothes as each member already comes equipped with them. Depending on your party setup, you should have around 300-400 gil remaining. Buy Cure, Protect and Blink for White Mages, and Fire, Sleep, and Thunder for Black Mages. If you have a Red Mage, get Cure, Fire, and Sleep. The latter will make one of the upcoming fights a little bit easier. With the rest of your gil, you can save it or spend it on Potions. Once you are done shopping, return to the entrance of the town and talk to the guard there. He will see your crystals and direct you to the king. The king will say something about the Warriors of Light and Lukahn, and you will be asked to search for Sarah, the princess. If you succeed, he will rebuild the bridge to the north. After you exit the town, you should get to about level 3 and then start heading northwest to the Chaos Shrine. There you will find the game's first boss: Garland. </p> 
+  <h2 id="Garland">BOSS: Garland</h2> 
+  <p>Recommended Level: 3</p> 
+  <p>This fight is fairly straightforward. All you have to do is attack, and occasionally used a Cure spell if you have a White Mage. This is a very easy boss fight.</p> 
+  <h2 id="Matoyas-Cave">Matoya's Cave</h2> 
+  <p>Once you have slain Garland, return to Cornelia Castle and into the King's chamber. Before you leave, talk to Princess Sarah and she will give you the Lute, a key item that is required much later in the game. Leave Cornelia, and a cutscene will play where the bridge is being rebuilt. As you walk over it, the opening will play, sharing some lore about the game. You can skip this if you'd like. Walk all the way up, choosing the left path after you cross the bridge, until you reach a cave on the peninsula where the witch Matoya resides. In the cave, head left and up into the room. Matoya will keep running into stuff as she has lost her crystal eye. We will find it relatively soon.</p> 
+  <h2 id="Heading-To-Pravoka">Heading to Pravoka</h2> 
+  <p>Return to where the bridge was, and head right instead of left. Continue right. The enemies in this area are tougher, so you may want to fight a some battles against Goblins or Wolves before proceeding to get to level 5 or 6. Continue right until you reach the second town, Pravoka.</p> 
+  <h2 id="Pravoka">Pravoka</h2> 
+  <p>There are a couple of upgrades you should make in Pravoka. You should have around 1000 gil at this point, but more is always better. Straightaway, if you have anyone who can use black magic, immediately buy Temper. This, along with Haste, are the best spells in the game. The only White Magic here worth buying is Invis, but it still isn't great, so you don't need to buy it if need the gil. At the weapon shop, Broadswords and Battle Axes are incredibly expensive. Both can only be equipped by Warriors. The Battle Axe is practically useless, sporting only one more point of damage than the Broadsword, and has half the accuracy. The Broadsword also can get 2-hits, doing double the damage. If you have a Thief, buy the Scimitar. And if you have enough gil, buy the Broadsword. At the armor shop, Iron Armor is incredibly expensive, costing 640 gil. The Leather Shield is very cheap, so buy it for your Warrior. Also you can get Leather Gloves for each of your party members. After your shopping spree, stay at the inn, save, and prepare for your next boss fight. Talk to the pirate captain on the left.</p> 
+  <h2 id="Pirates">BOSS: Pirates</h2> 
+  <p>Recommended Level: 7</p> 
+  <p>The strategy I've always found most useful against these guys is to immediately cast Sleep once the battle starts. This will put most (if not all) of them to sleep. Then just hammer away with normal attacks. They might not even get one hit on you (I got hit once). After the battle, you will recieve the Ship! You can now cross the waters of the world!</p> 
+  <h1 id="Elfheim">Elfheim</h1> 
+  <p style="text-align: center">Elfheim, Marsh Cave, Western Keep, and Mt. Duegar</p> 
+  <h2 id="Elfheim-Town">The Town of Elfheim</h2> 
+  <p>Once you exit Pravoka, you will see your newly acquired Ship directly beneath the town! The ship can travel across water, but can only be docked at the various docks around the map. You can return to Cornelia to use the inn from now on, as it is cheaper. Return to Cornelia, stop if you are low, and then proceed south to the dock there. Enemies around this area can poison you, which can be dangerous. Walk southwest to find the third town of the game, Elfheim. Since the inn does not cure status ailments, if any of your characters are poisoned, you will need to buy Antidotes at the item shop to cure it. Elfheim is an interesting town, as it houses shops for level 3 an 4 magic. Your characters may not even be a high enough level to learn level 4 magic (you can check this in the status menu). The level 3 white magic shop is located above the inn, after crossing the bridge. There is some good magic here, namely Cura and Heal, the former healing more, but the latter healing the whole party. These spells cost 1,000 gil. Chances are, you can only buy one, if any. Go with whichever one, you'll get the other soon, since you are going to want to get up to about 6,000 gil. Why? There are also two level 4 spells that you'll want: Poisona to cure poison, and Haste, as we mentioned earlier, is one of the best spells in the game. Alternatively, you could buy Antidotes instead of Poisona. Elfheim has a lot of upgrades, and they are expensive. In total, with my party of Monk, Thief, White Mage, Black Mage, it would cost 9,520 gil, even if I only bought Cura, Heal, Poisona, and Haste! I'd advise to just get Leather Caps since they are cheap, and to not worry about equipment as much as magic.</p> 
+  <h2 id="Time-To-Grind">Time to Grind</h2> 
+  <p>This section is <span style="color: red;">optional</span>, you can skip it if you want.</p> 
+  <p>Yee haw, here we go! The Marsh Cave, the next dungeon, is a pretty difficult one. However, if you are at or around level 9, it should be doable. But if you want it to be easy, you're going to have to do a bit of grinding to get the best upgrades. Ogres give you about 200 gil, and they aren't too difficult, they will be the best enemies to grind on.</p> 
+  <h2 id="Marsh-Cave">The Marsh Cave</h2> 
+  <p>Once you enter the cave, you will immediately see a fork. If you head up, you will find a treasure room. The treasures aren't all that great, so if you don't care about getting all the treasures, I'd advise you skip it as the encounters can be very dangerous. Head down from the entrance to get to a small room with a staircase. Once on the second floor, take a couple of steps right and exit the room. Head down to the bottom of the floor and then straight right. Enter the room and leave through the door on the other side and down the staircase. The third floor can be confusing. This floor has treasure scattered all over it. I'd advise you to skip the treasures for now because some require the Mystic Key which you don't have yet. From the staircase, head down and right to the first rectangle and head straight down on the right side of the rectangle. Head down, past one room and then enter the second room. There will be a chest surrounded by rocks. Prepare yourself, heal up as much as you can, and prepare for a difficult fight. Step onto the tile in front of the chest, and enter the Piscodemons!</p> 
+  <h2 id="Piscodemons">BOSS: Piscodemons</h2> 
+  <p>Recommended Level: 10</p> 
+  <p>You will encounter either 2, 3, or 4 Piscodemons in this battle. Which one you get is totally random. 4 is much more difficult. Attack with any Warriors, Monks, or Thieves. White Mages should cast Heal or Cura on anyone who needs it. Any mage with offensive magic should cast any level-2 spell, such as Fira. Hopefully, the Piscodemons will go down fast.</p> 
+  <h2 id="Return-From-The-Marsh">Return from the Marsh</h2> 
+  <p>This part can be really annoying. After defeating the Piscodemons and obtaining the Crown, you have to go all the way back through the dungeon and back to Elfheim. Make sure to sufficiently heal between battles. If you're playing a re-release of the game, this will be much easier as you can save wherever you want, but be sure to make sure you don't sofltock yourself. Once you get back to Elfheim, immediately go to the inn and heal. Save your game. Astos is a pretty easy boss and the Western Keep isn't much of a dungeon, so you won't need to grind at all if you were able to defeat the Piscodemons.</p> 
+  <h2 id="Western-Keep">Western Keep</h2> 
+  <p>After returning to Elfheim, you may want to buy Level 4 magic or equipment before heading out to Western Keep. Head northwest of Elfheim to get to the Keep. Once there, head straight up and talk to the "King".</p> 
+  <h2 id="Astos">BOSS: Astos</h2> 
+  <p>Recommended Level: 12</p> 
+  <p>If you have the Haste spell, immediately cast it on one of your attackers. Attack with your Warriors, Monks, and Thieves. Cast Haste on all your attackers. Have Black Mages and Red Mages use level-2 spells. This one shouldn't be too hard.</p> 
+  <h2 id="The-Mystic-Key">The Mystic Key</h2> 
+  <p>Return to Matoya's Cave near Pravoka. Return the Crystal Eye to her, and she will give you the Jolt Tonic. Sail back to Elfheim. Enter the castle and give the Jolt Tonic to the prince. In exchange for the remedy, he will bestow upon you the Mystic Key, which allows you to find locked treasures.</p> 
+  <ul> 
+   <li>Western Keep. There are 3 treasures in the western portion: a Falchion, Power Staff, and Steel Gloves.</li> 
+   <li>Marsh Cave. At this point, you should travel to the 3rd floor and can now get the treasures. Many of the rooms contain treasures on this floor. There will be normal items, such as Gil or Antidotes. The best treasure, however, is the Silver Armlet.</li> 
+   <li>Chaos Shrine. At the southeastern and northeastern corners of the shrine, there are two swords: the Werebuster and Rune Blade. Each room is guarded by Gargoyles, but they shouldn't be a threat. These swords do more damage against certain types, wolves and spellcasters respectively.</li> 
+   <li>Cornelia. In the northern section of the castle, you will find two locked rooms. You will get the Mythril Knife, Saber, Iron Armor, 2 Cottages, a Tent, but most importantly, the Nitro Powder, which allows you to demolish a section of the land to form a canal.</li> 
+  </ul> 
+  <h2 id="Mt-Duegar">Mt. Duegar</h2> 
+  <p>There are quite a few treasures to loot, and they are straightforward to find. Once you are done hunting for treasure, talk to Nerrick and hand over the Nitro Powder. He will then explode the canal and you will gain access to the town of Melmond.</p> 
+  <h1 id="Earth">Earth</h1> 
+  <p style="text-align: center">Melmond, Cavern of Earth, Titan's Cave, and Sage's Cave</p> 
+  <h2 id="Melmond">Melmond</h2> 
+  <p>The town of Melmond is a strange one. The ground is tainted and tombstones are scattered around. There is also no item shop here, which is annoying. Level-5 magic is sold here, and the white magic is some of the best in the game. You can buy Curaga, Life, Heala, and and Diaga. Buy the first three ASAP. The black magic here is much less useful, so buy the white magic first. If you check the Armor Shop, you will see something *very* expensive. You can buy the Knight's Armor for a whopping 45,000 gil. The armor provides good defense, but it's too heavy and too expensive to be worth it.</p> 
+  <h2 id="The-Cavern-Of-Earth">The Cavern of Earth</h2> 
+  <p>From Melmond, head west until you reach a triangular peninsula, which is where the Cavern of Earth resides. This cave is expansive and you will need to traverse through it twice. To the left of the entrance, you will find a loop: the Hall of Gigas. This is a great grinding spot, as you are forced into a relatively difficult encounter each and every step. Traveling straight up or down will find you treasures full of gil. Once you are finished looting, head east from the entrance to go to the second floor. This floor is very interesting, having small rooms with holes in the walls. Head down from the staircase into the next room, then up, down, down, down, right, up, right, and up into a treasure room. Here you will find gil, a Tent, but most importantly, the Coral Sword, which you should equip. After acquiring the treasure, walk down, left, down all the way, and then up into the staircase in the southeastern portion of the room. The third floor is scattered with treasure, but the treasure on the right is not worth seeking. Head east from the staircase, and you will find a room with a Sleeping Bag. Head left and then up to a treasure with gil. Head west and south, then a bit east to find a treasure box with more gil. Southeast from here, you will find the quarters of the Vampire.</p> 
+  <h2 id="Vampire">BOSS: Vampire</h2> 
+  <p>Recommended Level: 15</p> 
+  <p>This guy is easy. It's possible to win in only a few hits. Have white mages keep the party healthy, while black mages can use Temper to buff up fighters. Attack away until he goes down.</p> 
+  <h2 id="The-Star-Ruby">The Star Ruby</h2> 
+  <p>After slaying the Vampire, open the treasure chest next to where he stood to obtain the Star Ruby. If you were to try to continue, you would see that the path is barricaded by stone. You will need to find another way through. Keep your health high as you trek out of the cavern. If you need to heal, use a Tent. If you are playing the NES version of the game, you may want to return to Melmond to save the game. Head east from the Cavern of Earth into a cave in a mountain. There will be a titan blocking your path, but if you give him the Star Ruby, he will move out of the way. Loot all the treasures in the Titan's Cave, and then exit through the west exit. Head south to another cave, the Sage's Cave. Here you will find a sage, Sadda, that will give you the Earth Rod, the item required to remove the barricade stopping you from traversing deeper into the Cavern of Earth.</p> 
+  <h2 id="The-Cavern-Of-Earth-II">The Cavern of Earth II</h2> 
+  <p>After obtaining the Earth Rod, return to Melmond, heal up, buy spells, all that jazz. Whenever you are ready, return to the Cavern of Earth to find out the secrets that lie deeper within. Return back to the Vampire's room and walk in front of the stone tablet. The passage will open up, allowing you entrance to the fourth floor. This floor is very similar to the second. From the staircase, walk all the way down to a treasure room. You will find gil, a Tent, and the Mythril Shield. Return almost back to the staircase, but go through the right door in the L-shaped room that leads to a square room. Then go up and right, and walk southeast until you reach a rectangular room with 4 doors. Head through the upper right door and around to the second treasure room. This room contains a Staff and a lot of gil. Leave the treasure room and walk to the southeastern staircase. The fifth and final floor contains nothing of interest other than a room on the left. Head up the long hallway, left, and down another hallway. Open the door and prepare for your first *real* boss fight.</p> 
+  <h2 id="Lich">BOSS: Lich</h2> 
+  <p>Recommended Level: 20</p> 
+  <p>The epic boss music must mean that something will be different... right? The Lich is the first of the Four Fiends, devilish creatures that guard the crystals. The Lich is weak to Fire, but even with that weakness Temper is still the better option for offensive mages. You can either cast Temper a couple of times and then switch to Firaga, or you can just keep the Tempers going. White Mages should heal when needed. Trust me, Temper is overpowered in this game. After you defeat the Lich, you will recover the first of the four crystals: the Earth Crystal! Use the teleport pad to exit the cave.</p> 
+  <p>You can now enter the <a href="#Earthgift-Shrine">Earthgift Shrine</a>.</p>
+  <h1 id="Expeditions-Of-Grandeur">Expeditions of Grandeur</h1> 
+  <p style="text-align: center">Ice Cavern, Ryukhan Desert, Citadel of Trials, and the Cardia Islands</p> 
+  <h2 id="The-Canoe">The Canoe</h2> 
+  <p>In order to continue with the game, it is required to go to Crescent Lake and get a canoe, which is needed to traverse through shallow waters. From Melmond, head down below the triangular peninsula and left until you reach a port for your ship. From there, walk southwest until you reach a lake with a town in it. That town is Crescent Lake, where the canoe resides. Once you enter the town, walk up to the magic shops. If you walk between them, you will find a grassy passage to a circle of sages. Talk to the sage on the bottom left and he will give you the canoe.</p> 
+  <p>At this point you have two options: pursue the Airship and sidequests, or go straight to Mt. Gulg to face the second Fiend. Skip to the <a href="#Fire">Fire section</a> if you wish to go Mt. Gulg first.</p> 
+  <h2 id="Ice-Cavern">Ice Cavern</h2> 
+  <p>After obtaining possesion of the canoe, return to the port where you left your ship. Sail north of this port to reach another. Use your canoe to enter the shallow water. Sail left until you can go up, then all the way up, then as far left as you can go. Then sail around to enter the cavern. Once inside, walk down the long hallway, and then walk around to the staircase. The second floor is incredibly basic, just walk left then down or vice versa. After using the staircase to the third floor, use the one next to it to get back to the second. Simply walk into a pit to get back to the third floor, this time in a far larger section. To the left there is a treasure room with Ice Armor and Mythril Gloves. Another treasure room lies at the bottom of the floor, containing a lot of gil (40,780 gil to be exact). From the treasure room, head up and this time go right to the staircase. You will be back on the first floor. Get the gil and Potion before leaving the room. DO NOT USE THE STAIRCASE YET! It will take you outside of the dungeon and you will be forced to go through it again. Enter the room and avoid the 4th tile on the penultimate row before the treasure. Grab the gil, Sleeping Bag, and Ice Shield, then fall through the fourth tile. Attempt to open the treasure you previously couldn't and you will be surprised by the Evil Eye. This enemy is weak, don't let it barrage you with spells though. After the fight, open the treasure chest to find the Levistone inside. This is what you need to retrieve the Airship. </p> 
+  <h2 id="Ryukahn-Desert">Ryukahn Desert</h2> 
+  <p>Once you have acquired the Levistone, return to Crescent Lake. Use your canoe to traverse between the 2 mountains and to a small desert. If you use the Levistone here, the Airship will rise from underground and will be yours to keep.</p> 
+  <h2 id="The-Citadel-Of-Trials">The Citadel of Trials</h2> 
+  <p>Within the Citadel of Trials, there is an item that can please even the King of Dragons. In order to reach this Citadel and the special item lying within, you need to use your newly acquired airship. The easy part: the Citadel of Trials is located directly north of the Chaos Shrine. The hard part: if you try to land near the Citadel, you won't be able to. You have to find solid green grass. Following the path north, you won't reach land until a tiny speck on the peninsula. You'll have to walk from here all the way to the Citadel. Once inside, you will find a spacious room. A man will require proof that you are worthy, but don't worry: it's just the Crown you received in the Marsh Cave. Once proven, walk over to the northwestern portion of the castle and prepare yourself. When you're ready, sit on the throne and you will be warped into the dungeon. You will start in a small room in the center of the second floor. Exit this room and walk into the pillar. You will be warped to another room. Take the pillar in the next room, and then the lower pillar. Take the pillar here, and then the lower again. Take the pillar down the hallway and then the closer pillar. Walk to the room in the northwest to find a precious treasure: the Gauntlets. These cast Thundara when used as an item, which hit all enemies. After getting these, take the pillar in the lower square room directly below the hallway, not the one in the corner. Take the staircase up to the third floor. Walk north and open all the treasure chests as you walk around the room. When you get to the throne, open the treasure chest to obtain the Rat's Tail, the item needed to please Bahamut. When you try to sit on the throne to leave, you will be attacked by Dragon Zombies. These enemies are weak to Fire and have little HP so you can either cast Fira or Temper to win the fight (do you see a pattern in the boss/enemy strategies? Yeah this game is kinda broken). After the dragons' s econd demise, sit on the throne to leave, you will be attacked by Dragon Zombies. These enemies are weak to Fire and have little HP so you can either cast Fira or Temper to win the fight (do you see a pattern in the boss/enemy strategies? Yeah this game is kinda broken). After the dragons' second demise, sit on the throne to be returned to the first floor.</p> 
+  <h2 id="Cardia-Islands">Cardia Islands</h2>
+  <p>There are 5 islands in an archipelago to the west of the Citadel of Trials. All of these have treasures except 2. But the dragons inside will tell you lore. One of the islands has an entrance that leads to the a very long hallway to a staircase. Walk north until you reach the King of Dragons, Bahamut. Upon showing him the Rat's Tail, you will undergo a shocking transformation: your 4 characters will be upgraded to stronger versions (and in the NES version they will become tall bois). Warriors will become Knights which can cast white magic up to level-3 and equip better equipment. Thieves become Ninjas, with special equipment and th e ability to cast level-4 black magic. Monks become Masters, and although they cannot cast magic, they become much stronger and are definitely the strongest fighters in the game. Mages become Wizards of the same color, being able to cast stronger magic. If you e have a White Wizard, you may want to buy Teleport at Crescent Lake, which allows you to retreat from dungeons much quicker and easier. With your newly acquired powers, you can be much more confident about your abilities in saving the world.</p><p></p> 
+  <h1 id="Fire">Fire</h1>
+  <p style="text-align: center">Crescent Lake and Mt. Gulg</p>
+  <h2 id="Crescent-Lake">Crescent Lake</h2>
+  <p>You have already been here before to get the Canoe, but this time you will probably have enough gil to buy the magic and equipment here now. If you have a White Wizard, you may want to buy Teleport, which allows you to retreat from dungeons much quicker and easier than walking. Invisira is also a pretty good White Magic spell to buy. You can also buy Mythril equipment here, but you can get the full set in the next dungeon, Mt. Gulg, so I'd advise against it. When you're done, prepare for a venture into a lava-filled volcano.</p>
+  <h2 id="Mt-Gulg">Mt. Gulg</h2>
+  <p>If you have the airship, fly northwest of Crescent Lake. Otherwise, just use the river. Once inside, you will see lava in the center of the floor. This harms your party every step you take in it, so try and avoid it, but it is mandatory to cross through it sometimes. From the entrance, walk left through the lava. Walk through the door above you to enter a labyrinth full of treasures, including gil, a Great Sword, and a lot of Mythril equipment. Alternatively, walk straight left from the staircase through the hallway to the third floor. I'd advise to go for the treasure. Walk up from the door and left when you can for the first treasure, then keep going left then down, right, down, and right for another. Return to the section directly above the first treasure chest but on the other side of the wall. Go up and left down the hallways for another treasure chest. Go all the way right for a fourth treasure. Go up and left until the second spot you can go down at. Walk down and up for two treasure chests. Go down from here and then left. Walk down, right, down and left for a room with a lot of treasure. Walk up, right, up, left, up, right, and then down the hallway to get out of the labyrinth. Then walk across the lava to the third floor. The paths on these floors are linear: Head left on floor 3, then southeast on the fourth. You can take a shortcut when you get back to floor 3, go straight down to the next room, then right to the next, then down and right to the staircase. Every path leads to treasure, so go down every one you see. The staircase is in the bottom right. On the fifth floor, you start in the center. You can find Flame Armor to the left, and the second of the Four Fiends, Marilith, to the southwest.</p>
+  <h2 id="Marilith">BOSS: Marilith</h2>
+  <p>Recommended Level: 25</p>
+  <p>Unsurprisingly, the strategy to kill her is not much different from other bosses. If you got the Ice Brand on the previous floor, you can use that with a Knight to deal good damage. If you have it, NulBlaze can protect you from Marilith's powerful Fire spells. Cast Haste on all your fighters, then start using Temper. She will die quickly if you were strong enough. After your victory, grab the Fire Crystal and warp out of the dungeon.</p>
+  <p>You can now enter the <a href="#Heckfire-Chasm">Heckfire Chasm</a>.</p>
+<h1 id="Water">Water</h1>
+<p style="text-align: center">Caravan, Gaia, Onrac, and the Sunken Shrine</p>
+<h2 id="The-Deserts-Secret">The Desert's Secret</h2>
+<p></p>
+<h2 id="Gaia">Gaia</h2>
+<p></p>
+<h2 id="Onrac">Onrac</h2>
+<p></p>
+<h2 id="The-Sunken-Shrine">The Sunken Shrine</h2>
+<p></p>
+<h2 id="Kraken">BOSS: Kraken</h2>
+<p></p>
+
+  <h1 id="Wind">Wind</h1>
+  <p style="text-align: center">Waterfall Cave, Lufenia, Mirage Tower, and the Flying Fortress</p>
+  <h2 id="Waterfall-Cave">Waterfall Cave</h2>
+  <p></p>
+  <h2 id="Lufenia">Lufenia</h2>
+  <p></p>
+  <h2 id="Mirage-Tower">Mirage Tower</h2>
+  <p></p>
+  <h2 id="The-Flying-Fortress">The Flying Fortress</h2>
+  <p></p>
+  <h2 id="Tiamat">BOSS: Tiamat</h2>
+  <p></p>
+  <h2 id="An-Elusive-Machine">An Elusive Machine</h2>
+  <p></p>
+  <h1 id="Eternal-Chaos">Eternal Chaos</h1>
+  <p style="text-align: center">Excalibur and the Chaos Shrine</p>
+  <h2 id="The-Excalibur">The Excalibur</h2>
+  <p></p>
+  <h2 id="Chaos-Shrine">Chaos Shrine</h2>
+  <p></p>
+  <h2 id="Chaos">BOSS: Chaos</h2>
+  <p></p>
+ 
+</body></html>
